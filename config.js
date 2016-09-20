@@ -28,6 +28,8 @@ config.slack.mention = process.env.SLACKUS_SLACK_MENTION;
 // Additional options for messages posted to Slack (optional).
 // Overrides the webhook's settings, see Setup Instructions for your webhook.
 config.slack.options = {
+  username: 'ghost',
+  icon_url: 'https://blog.bergeron.io/content/images/2015/06/new_ghost_roundup_preview.png'
   // Some examples:
   // username: 'Santa Claus',
   // icon_emoji: ':santa:',
